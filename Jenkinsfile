@@ -8,9 +8,9 @@ pipeline {
                 echo 'hello world'
             }
         }
-        stage("whats in the file") {
+        stage("what files do i have") {
             steps {
-                sh "cat main.py"
+                sh "ls"
             }
         }
 
